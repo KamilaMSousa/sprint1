@@ -1,2 +1,2 @@
 # sprint1
-trabalho do semesttre
+trabalho do semestre
