@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body>
+   
+    <h3>Faça o seu orçamento</h3>
+    Quantas vagas seu estacionamento tem? <input id="n_vagas" placeholder="quantas vagas">
+    <br>
+    <br>
+    Quantos andares: <input id="andar" placeholder="andares">
+    <br>
+    <br>
+    
+    <button onclick="calcular()" id="resultado">Calcular</button>
+
+    <div id="soma" style="display: none;"> O valor do seu orçamento ficou em:</div>
+
+<script>
+
+function calcular() {
+    soma.style.display = 'block';
+   
+    var conta = n_vagas.value * 50;
+
+    soma.innerText = `O valor do seu orçamento ficou em:R$ ${conta}`;
+}
+
+</script>
+
+</body>
+</html>
